@@ -1,0 +1,36 @@
+.pagination {
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+@media (max-width: 1024px) {
+  .pagination {
+    font-size: 13px;
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--base) / 2);
+}
+
+.button {
+  all: unset;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  padding: calc(var(--base) / 2);
+  color: var(--color-elevation-500);
+  border: 1px solid var(--theme-elevation-200);
+}
+.button:disabled {
+  cursor: not-allowed;
+  color: var(--theme-elevation-200);
+  border-color: var(--theme-elevation-150);
+}
+
+.icon {
+  width: calc(var(--base) / 2);
+  height: calc(var(--base) / 2);
+}/*# sourceMappingURL=index.module.css.map */

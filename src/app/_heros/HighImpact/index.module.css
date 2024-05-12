@@ -1,0 +1,55 @@
+.hero {
+  padding-top: calc(var(--base) * 2);
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 1024px) {
+  .hero {
+    padding-top: var(--gutter-h);
+  }
+}
+
+.media {
+  width: calc(100% + var(--gutter-h));
+  left: calc(var(--gutter-h) / -2);
+  margin-top: calc(var(--base) * 3);
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .media {
+    left: 0;
+    margin-top: var(--base);
+    margin-left: calc(var(--gutter-h) * -1);
+    width: calc(100% + var(--gutter-h) * 2);
+  }
+}
+
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding-top: var(--base);
+  flex-wrap: wrap;
+  margin: calc(var(--base) * -0.5);
+}
+.links > * {
+  margin: calc(var(--base) / 2);
+}
+
+.caption {
+  margin-top: var(--base);
+  color: var(--theme-elevation-500);
+  left: calc(var(--gutter-h) / 2);
+  width: calc(100% - var(--gutter-h));
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .caption {
+    left: var(--gutter-h);
+  }
+}
+
+.content {
+  position: relative;
+}/*# sourceMappingURL=index.module.css.map */

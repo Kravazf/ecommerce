@@ -1,0 +1,6 @@
+.richText :first-child {
+  margin-top: 0;
+}
+.richText :last-child {
+  margin-bottom: 0;
+}/*# sourceMappingURL=index.module.css.map */

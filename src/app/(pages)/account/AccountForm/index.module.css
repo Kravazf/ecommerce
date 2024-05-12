@@ -1,0 +1,23 @@
+.form {
+  margin-bottom: var(--base);
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--base) / 2);
+  align-items: flex-start;
+  width: 66.66%;
+}
+@media (max-width: 1024px) {
+  .form {
+    width: 100%;
+  }
+}
+
+.changePassword {
+  all: unset;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.submit {
+  margin-top: calc(var(--base) / 2);
+}/*# sourceMappingURL=index.module.css.map */

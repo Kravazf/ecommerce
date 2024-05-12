@@ -1,0 +1,27 @@
+.actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: calc(var(--base) / 2);
+}
+@media (max-width: 1024px) {
+  .actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.price {
+  font-weight: 600;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.price > * {
+  margin: 0;
+}
+
+.priceBreakdown {
+  color: var(--theme-elevation-500);
+}/*# sourceMappingURL=index.module.css.map */

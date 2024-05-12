@@ -1,0 +1,10 @@
+.largeBody {
+  font-size: 25px;
+  line-height: 32px;
+}
+@media (max-width: 1024px) {
+  .largeBody {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}/*# sourceMappingURL=index.module.css.map */

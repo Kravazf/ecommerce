@@ -1,0 +1,79 @@
+.scrollRef {
+  position: absolute;
+  left: 0;
+  top: calc(var(--base) * -5);
+}
+@media (max-width: 1024px) {
+  .scrollRef {
+    top: calc(var(--base) * -2);
+  }
+}
+
+.introContent {
+  position: relative;
+  margin-bottom: calc(var(--base) * 2);
+}
+@media (max-width: 1024px) {
+  .introContent {
+    margin-bottom: var(--base);
+  }
+}
+
+.resultCountWrapper {
+  display: flex;
+  margin-bottom: calc(var(--base) * 2);
+}
+@media (max-width: 1024px) {
+  .resultCountWrapper {
+    margin-bottom: var(--base);
+  }
+}
+
+.pageRange {
+  margin-bottom: var(--base);
+}
+@media (max-width: 1024px) {
+  .pageRange {
+    margin-bottom: var(--base);
+  }
+}
+
+.list {
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%;
+  gap: var(--base) 40px;
+}
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(6, 1fr);
+    gap: calc(var(--base) / 2) var(--base);
+  }
+}
+
+.column {
+  grid-column-end: span 4;
+}
+@media (max-width: 1024px) {
+  .column {
+    grid-column-end: span 6;
+  }
+}
+@media (max-width: 768px) {
+  .column {
+    grid-column-end: span 6;
+  }
+}
+
+.pagination {
+  margin-top: calc(var(--base) * 2);
+}
+@media (max-width: 1024px) {
+  .pagination {
+    margin-top: var(--base);
+  }
+}/*# sourceMappingURL=index.module.css.map */

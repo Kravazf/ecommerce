@@ -1,0 +1,12 @@
+.form {
+  width: 66.66%;
+}
+@media (max-width: 1024px) {
+  .form {
+    width: 100%;
+  }
+}
+
+.submit {
+  margin-top: var(--base);
+}/*# sourceMappingURL=index.module.css.map */
